@@ -51,17 +51,13 @@ nav {
 .hero {
   display: flex;
   flex-direction: column;
-  width: 100%;
   padding: 1rem;
-
-  /* padding: 0rem 13.5rem; */
 }
 
 .top-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 32rem;
 }
 
 .new {
@@ -73,7 +69,8 @@ nav {
   background-color: #191919;
   border-radius: 150px;
   padding: 5px;
-  margin-top: 8.5rem;
+  position: absolute;
+  top: 6rem;
 }
 
 .new div:nth-of-type(1) {
@@ -94,21 +91,29 @@ nav {
   margin-left: 10px;
 }
 
+.hero-img-small>img{
+  width: 100%;
+}
+
+
 .calories {
-  width: 10.4rem;
+  width: 7.5rem;
+  height: 18rem;
   display: flex;
   flex-direction: column;
   align-self: self-end;
-  gap: 2rem;
+  gap: 1rem;
+  margin-top: -25rem;
 }
 
 .calorie,
 .time {
-  width: 10.4rem;
-  padding: 1rem;
+  width: 6rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: start;
   background-color: #191919;
   border-radius: 15px;
@@ -116,14 +121,16 @@ nav {
 
 .calorie > h3,
 .time > h3 {
-  font-size: 2.5rem;
+  width: 4rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .calorie > p,
 .time > p {
+  width: 4rem;
   text-align: start;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   font-weight: 300;
   color: #ffffff;
 }
@@ -136,21 +143,24 @@ nav {
   color: #ffe642;
 }
 
-.title {
-  font-size: 15rem;
-  line-height: 12rem;
-  mix-blend-mode: normal;
-  z-index: 5;
+.top-content h1 {
+  width: 15rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 50px;
+  margin: 0 auto;
 }
 
 .summary {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .buttons {
   display: flex;
+  justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -159,9 +169,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 4rem;
-  width: 12rem;
-  font-size: 1.2rem;
+  height: 3rem;
+  width: 8rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #ffffff;
   background-color: #25ab75;
@@ -172,56 +182,52 @@ nav {
 .grey {
   background-color: #191919;
 }
-.girl-img {
-  position: absolute;
-  top: -40px;
-  right: 14rem;
-  width: 46rem;
-  z-index: 10;
-  mix-blend-mode: normal;
-}
 
-/* 
+
 .exercises {
-  padding: 6rem 10rem 0rem 10rem;
-  font-size: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 .exercises-heading {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   margin: 3rem 0rem;
 }
 .exercises-heading > p {
-  font-size: 1rem;
+  margin-top: 2rem;
+  font-size: 0.7rem;
+  font-weight: 300;
 }
 
 .exercises-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .exercise-card {
   display: flex;
   flex-direction: column;
-  width: 25rem;
+  width: 20rem;
 }
 
 .exercise-card > img {
-  width: 25rem;
+  width: 20rem;
   height: auto;
   border-radius: 15px;
   margin-top: 2rem;
 }
 
 .exercise-details {
-  margin-top: -5.6rem;
+  margin-top: -5.1rem;
 }
 
 .exercise-details > p {
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-size: 0.8rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.67);
@@ -235,7 +241,7 @@ nav {
 }
 
 .exercise-name > h2 {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .exercise-name > h3 {
@@ -247,15 +253,16 @@ nav {
 
 .program-heading {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 5rem 0rem 0rem 10rem;
   position: relative;
 }
+
 .program-heading-left {
   height: 30rem;
-  width: 40%;
-  line-height: 7.5rem;
-  font-size: 7.5rem;
+  width: 100%;
+  line-height: 3.2rem;
+  font-size: 3rem;
   font-weight: 600;
   z-index: 20;
 }
@@ -270,6 +277,8 @@ nav {
   left: 8rem;
   z-index: 2;
 }
+
+
 
 .program-heading-right {
   height: 45rem;
@@ -297,6 +306,7 @@ nav {
   width: 20rem;
   display: flex;
   justify-content: center;
+  /* align-items: center; */
   flex-direction: column;
 }
 .img-container > img {
@@ -334,52 +344,3 @@ nav {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
 }
-
-.footer{
-  margin-top: 20rem;
-  padding:10rem;
-}
-
-.links{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.link{
-  position: relative;
-  width: 100%;
-  height: 12rem;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.34);
-}
-
-.link>h5{
-  font-size: 2rem;
-  color: rgba(255, 255, 255, 0.34);
-}
-
-.link-content{
-  margin-left: 20%;
-}
-
-.link-content>h3{
-  font-size: 4rem;
-  font-weight: 400;
-}
-
-.link-content>p{
-  color: rgba(255, 255, 255, 0.5);;
-  font-size: 0.9rem;
-}
-
-.link>img{
-  position: absolute;
-  height: 1.8rem;
-  right: 0rem;
-  float: left;
-}
- */
-
