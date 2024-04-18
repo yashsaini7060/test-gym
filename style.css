@@ -296,20 +296,22 @@ nav {
 
 .program-heading-right > p {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1.6rem;
-  line-height: 3rem;
+  font-size: 1.2rem;
+  /* line-height: 3rem; */
 }
 
 .images {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 1rem;
-  gap: 2rem;
+  gap: 3rem;
+  margin-top: 5rem;
 }
 
 .img-card {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -342,7 +344,7 @@ nav {
 
 
 .footer{
-  margin-top: 20rem;
+  margin-top: 5rem;
   padding: 1rem;
 }
 
