@@ -1,15 +1,15 @@
-// const browserWidth = window.innerWidth;
-// const browserHeight = window.innerHeight;
+const browserWidth = window.innerWidth;
+const browserHeight = window.innerHeight;
 
 
-// const heighDiv = document.getElementById("height");
-// const widthDiv = document.getElementById("width");
+const heighDiv = document.getElementById("height");
+const widthDiv = document.getElementById("width");
 
-// heighDiv.innerText=browserHeight;
+heighDiv.innerText=browserHeight;
 
-// widthDiv.innerText=browserWidth;
+widthDiv.innerText=browserWidth;
 
-// console.log(`Browser width: ${browserWidth}px`); 
-// console.log(`Browser height: ${browserHeight}px`); 
+console.log(`Browser width: ${browserWidth}px`); 
+console.log(`Browser height: ${browserHeight}px`); 
 
 
