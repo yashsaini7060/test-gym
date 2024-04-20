@@ -808,6 +808,10 @@ nav {
   .top-content{
     padding-left: 10rem;
   }
+  .new{
+    margin-top: 10rem;
+    margin-left: 2rem !important;
+  }
   .summary{
     margin-top: 23rem;
     margin-left: 12rem !important;
@@ -817,6 +821,9 @@ nav {
   }
   .exercises{
     margin-top: 10rem;
+  }
+  .exercises-heading>p{
+    font-size: 1rem;
   }
   .exercise-card{
     margin-bottom: 3rem;
@@ -835,7 +842,7 @@ nav {
     height: 10rem;
   }
   .link-content>h3{
-    font-size: 3.9rem;
+    font-size: 3.5rem;
   }
   .link-content>p{
     font-size: 1.5rem;
